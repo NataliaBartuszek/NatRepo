@@ -1,0 +1,93 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	text-align: justify;
+	
+}
+.img-circle {
+	border: 80px black;
+	border-radius: 50%;
+	
+}
+#header {
+	background-image: url("zdjecia_str/zdjglow6.jpg");
+	background-size: cover;
+}
+
+#header img {
+	display: block;
+	width: auto;
+	width: auto;
+	height:auto;
+	margin: auto;
+}
+.quote {
+	
+	font-size: 16px;
+	text-align: right;
+	margin-top: 10px;
+}
+h1 {
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	padding: 18px 0 18px 0;
+	margin: 20px 0 10px 0;
+}
+h1 span {
+	border: 3px dashed #669900;
+	padding: 10px;
+}
+.section {
+	background-color: #EEE;
+	padding: 25px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.selected {
+	background-color: #669900;
+	color: white;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+	border: 2px solid white;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+	
+}
+form {
+	text-align: center;
+	margin-top: 0;	
+}
+
+.submit {
+	
+	background-color: #669900;
+	padding: 12px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	color: white;
+}
+
+textarea {
+	height: 100px;
+}
+
+input, textarea {
+	margin-bottom: 5px;
+	font-size: 12px;
+	padding: 15px 10px 10px;
+	border: 1px white;
+	border-radius: 5px;
+	width: 25%;
+	
+	
+}
